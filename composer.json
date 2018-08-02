@@ -1,0 +1,26 @@
+{
+    "name"        : "bluesik/tv-maze-api",
+    "description" : "Library for interacting with TVMaze's API",
+    "version"     : "1.0",
+    "type"        : "library",
+    "license"     : "MIT",
+    "keywords"    : [
+        "tvmaze", "tvmaze api", "tv db"
+    ],
+    "authors": [
+        {
+            "name": "Bluesik",
+            "email": "blues1905@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "guzzlehttp/guzzle": "^6.3",
+        "nesbot/carbon": "^1.32"
+    },
+    "autoload": {
+        "psr-4": {
+            "TVMaze\\": "src/"
+        }
+    }
+}
